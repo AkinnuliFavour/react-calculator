@@ -12,7 +12,7 @@ function App() {
   const screenValue = `${secondNumber} ${symbol} ${firstNumber}`
 
   return (
-    <main className="h-screen w-screen bg-gray-400">
+    <main className="max-h-screen h-screen w-screen bg-gray-400">
       <section className="p-6 bg-gray-400 h-1/5 text-right text-4xl text-white font-semibold flex items-center justify-end">
         {!total ? screenValue : total}
       </section>
