@@ -44,7 +44,7 @@ const Buttons = ({ firstNumber, setFirstNumber, secondNumber, setSecondNumber, s
   };
 
   return (
-    <section className="grid grid-cols-4 max-w-screen h-4/5">
+    <section className="grid grid-cols-4 max-w-screen max-h-4/5 h-4/5">
       <div 
         className="bg-gray-200 p-4 text-center border-b border-gray-500 border-r text-2xl sm:text-4xl font-normal flex items-center justify-center hover:cursor-pointer hover:opacity-70"
         onClick={() => handleReset()}
